@@ -12,8 +12,6 @@ APIs for listing borrowed books and viewing borrowing history.
 http://127.0.0.1:8000/
 
 **Endpoints**:
-
-1. Book Management
    
 **Add Book (http://127.0.0.1:8000/api/books/):** Add a new book to the books table.
 
@@ -27,7 +25,7 @@ http://127.0.0.1:8000/
 
 ![Screenshot 2024-11-23 182056](https://github.com/user-attachments/assets/eae51991-700b-4d84-a38d-6fdc811038ce)
 
-**Borrow a Book (http://127.0.0.1:8000/api/borrow/):** Borrowing a book by passing book_id and borrower_id if borrower already there ,if borrower is not there then the details of the borrower has to be passed. 
+**Borrow a Book (http://127.0.0.1:8000/api/borrow/):** Borrowing a book by passing book_id and borrower_id if borrower is already there ,else the details of the borrower has to be passed. 
 
 ![Screenshot 2024-11-23 181603](https://github.com/user-attachments/assets/6bc15b71-5a3d-4472-8968-ffbe30f71a50)
 
